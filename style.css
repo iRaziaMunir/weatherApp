@@ -20,12 +20,39 @@ body{
 @media screen and (max-width: 600px){
    .card{
       width: 100%;
-      max-width: 500px;
-      padding: 40px 30px;
+      
+      padding: 40px 10px;
+      font-size: 16px;
+      margin-top: 40px;
+   }
+   .search input {
+      flex: 2;
+      padding: 12px;
+
    }
    .search button{
-      width: 100%;
+      width: 20px;
+      height: 20px;
+      font-size: 24px;
+      margin-left: -10px;
+      padding: 20px;
    }
+   .weather h1{
+      font-size: 40px;
+   }
+   .weather h2{
+      font-size: 30px;
+   }
+   .col img{
+      width: 30px;
+      margin-left: 12px;
+    }
+    .humidity,.wind{
+      font-size: 18px;
+      margin-top: -6px;
+      margin-bottom: 10px;
+    }
+
    
 }
 
