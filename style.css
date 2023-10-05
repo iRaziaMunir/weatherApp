@@ -21,7 +21,10 @@ body{
    .card{
       width: 100%;
       max-width: 500px;
-      padding: 40px 50px;
+      padding: 40px 30px;
+   }
+   .search button{
+      width: 100%;
    }
    
 }
