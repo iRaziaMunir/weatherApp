@@ -17,6 +17,15 @@ body{
     padding: 40px 35px;
     text-align: center;
 }
+@media screen and (max-width: 600px){
+   .card{
+      width: 100%;
+      max-width: 500px;
+      padding: 40px 50px;
+   }
+   
+}
+
 .search{
     width: 100%;
     display: flex;
